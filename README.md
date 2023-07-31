@@ -32,7 +32,8 @@ python rl_template.py --model a2c --max_timesteps 200000 --initial_x -1.0 --init
 ```
 
 This will train an A2C model for 200,000 timesteps, and the environment's state will be initialized at (-1.0, 1.0).
-Modifying the Environment
+
+## Modifying the Environment
 
 You can modify the CustomEnv class and the target_function according to your needs:
 
